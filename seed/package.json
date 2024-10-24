@@ -1,0 +1,14 @@
+{
+  "name": "seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "seed": "node ./seed.js",
+    "seed-contest": "node ./seed-C.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

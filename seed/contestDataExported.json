@@ -1,0 +1,46 @@
+{
+    "contests": [
+      {
+        "name": "990A",
+        "problemsId": [
+          "binarysearch",
+          "divide",
+          "add"
+        ],
+        "score": [
+          "200",
+          "100",
+          "50"
+        ],
+        "startTime": "2024-10-24T20:00:00.000Z"
+      },
+      {
+        "name": "991B",
+        "problemsId": [
+          "sudokusolver",
+          "multiply",
+          "itenary"
+        ],
+        "score": [
+          "400",
+          "100",
+          "500"
+        ],
+        "startTime": "2024-10-24T20:00:00.000Z"
+      },
+      {
+        "name": "992C",
+        "problemsId": [
+          "nqueens",
+          "binarysearch",
+          "divide"
+        ],
+        "score": [
+          "400",
+          "250",
+          "50"
+        ],
+        "startTime": "2024-10-24T20:00:00.000Z"
+      }
+    ]
+  }

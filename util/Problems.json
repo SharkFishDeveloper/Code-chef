@@ -1,0 +1,42 @@
+[
+  {
+    "title": "add",
+    "path": "../../problems/add",
+    "level": "easy"
+  },
+  {
+    "title": "divide",
+    "path": "../../problems/divide",
+    "level": "easy"
+  },
+  {
+    "title": "binarysearch",
+    "path": "../../problems/binarysearch",
+    "level": "medium"
+  },
+  {
+    "title": "mul",
+    "path": "../../problems/mul",
+    "level": "easy"
+  },
+  {
+    "title": "nqueens",
+    "path": "../../problems/nqueens",
+    "level": "hard"
+  },
+  {
+    "title": "itenary",
+    "path": "../../problems/itenary",
+    "level": "hard"
+  },
+  {
+    "title": "sudokusolver",
+    "path": "../../problems/sudokusolver",
+    "level": "hard"
+  },
+  {
+    "title": "multiply",
+    "path": "../../problems/multiply",
+    "level": "easy"
+  }
+]

@@ -1,0 +1,172 @@
+{
+    "problems": [
+      {
+        "slug": "add",
+        "description": "  # **2sum**\r\n\r\n\r\n  ###  **Find sum of two numbers**\r\n\r\n**Test case 2**\r\n ```\r\n 2 3\r\n ```\r\n **Output**\r\n ```\r\n 5\r\n ```\r\n   **Test case 2**\r\n ```\r\n 100 0\r\n ```\r\n  **Output**\r\n ```\r\n 100\r\n ```\r\n  **Test case 2**\r\n ```\r\n 2 -2\r\n ```\r\n **Output**\r\n ```\r\n 0\r\n ```\r\n ",
+        "boilerplateCppHalf": "\n//Add imports here\n    int add (int num1, int num2) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavaHalf": "\n//Add imports here\n    public static int add(int num1, int num2) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavascriptHalf": "\n//Add imports here\n    function add (num1, num2) {\n    // Your code\n    return result;\n}",
+        "boilerplatePythonHalf": "def add(num1, num2):\n        # Your code\n    return result",
+        "boilerplateCppFull": "\n\n        ###USER_CODE_HERE\n\n         int main() {\n              int num11 = 1;\n  int num21 = 3;\nint output1 = add(num11,num21);\ncout << output1  << endl;\n  int num12 = 4;\n  int num22 = 5;\nint output2 = add(num12,num22);\ncout << output2  << endl;\n        return 0;\n    }\n        \n       ",
+        "boilerplateJavaFull": "\n            public class Main {\n                public static void main(String[] args) {\n                    int num11 = 1;\nint num21 = 3;\nint output1 = add(num11,num21);\nSystem.out.println(output1);\n int num12 = 4;\nint num22 = 5;\nint output2 = add(num12,num22);\nSystem.out.println(output2);\n\n\n                }\n                ###USER_CODE_HERE\n            }\n        ",
+        "boilerplateJavascriptFull": "###USER_CODE_HERE\nfunction main() {\n    \n        const result1 = add(1, 3);\n        console.log(result1);\n    \n        const result2 = add(4, 5);\n        console.log(result2);\n}\n\nmain();",
+        "boilerplatePythonFull": "###USER_CODE_HERE\ndef main():\n    \n    result_1 = add(1, 3)\n    print(result_1)\n    \n    result_2 = add(4, 5)\n    print(result_2)\n  \nif __name__ == \"__main__\":\n    main()",
+        "test_cases": [
+          "1 3",
+          "4 5"
+        ],
+        "test_cases_ans": [
+          "4 \r",
+          "9"
+        ],
+        "level": "easy",
+        "total_submissions": 0,
+        "pass_percent": "0"
+      },
+      {
+        "slug": "binarysearch",
+        "description": "  # **Binary search**\r\n\r\n\r\n  ###  **Find index of target number**\r\n\r\n**Test case 1**\r\n ```\r\n[1,2,3,4,5,6] 3\r\n ```\r\n\r\n **Output**\r\n ```\r\n 2\r\n ```\r\n   **Test case 2**\r\n ```\r\n [4,5,6,7,8] 8\r\n ```\r\n  **Output**\r\n ```\r\n4\r\n ```\r\n  **Test case 3**\r\n ```\r\n[0,1,6,8,9,10] 0\r\n ```\r\n **Output**\r\n ```\r\n0\r\n ```\r\n ",
+        "boilerplateCppHalf": "\n//Add imports here\n    int binarysearch (vector<int> nums, int target) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavaHalf": "\n//Add imports here\n    public static int binarysearch(int[] nums, int target) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavascriptHalf": "\n//Add imports here\n    function binarysearch (nums, target) {\n    // Your code\n    return result;\n}",
+        "boilerplatePythonHalf": "def binarysearch(nums, target):\n        # Your code\n    return result",
+        "boilerplateCppFull": "\n\n        ###USER_CODE_HERE\n\n         int main() {\n              vector<int> nums1 = {1,2,3,4,5,6};\n  int target1 = 3;\nint output1 = binarysearch(nums1,target1);\ncout << output1  << endl;\n  vector<int> nums2 = {4,5,6,7,8};\n  int target2 = 8;\nint output2 = binarysearch(nums2,target2);\ncout << output2  << endl;\n  vector<int> nums3 = {0,1,6,8,9,10};\n  int target3 = 0;\nint output3 = binarysearch(nums3,target3);\ncout << output3  << endl;\n        return 0;\n    }\n        \n       ",
+        "boilerplateJavaFull": "\n            public class Main {\n                public static void main(String[] args) {\n                    int[] nums1 = {1,2,3,4,5,6};\nint target1 = 3;\nint output1 = binarysearch(nums1,target1);\nSystem.out.println(output1);\n int[] nums2 = {4,5,6,7,8};\nint target2 = 8;\nint output2 = binarysearch(nums2,target2);\nSystem.out.println(output2);\n int[] nums3 = {0,1,6,8,9,10};\nint target3 = 0;\nint output3 = binarysearch(nums3,target3);\nSystem.out.println(output3);\n\n\n                }\n                ###USER_CODE_HERE\n            }\n        ",
+        "boilerplateJavascriptFull": "###USER_CODE_HERE\nfunction main() {\n    \n        const result1 = binarysearch([1,2,3,4,5,6], 3);\n        console.log(result1);\n    \n        const result2 = binarysearch([4,5,6,7,8], 8);\n        console.log(result2);\n    \n        const result3 = binarysearch([0,1,6,8,9,10], 0);\n        console.log(result3);\n}\n\nmain();",
+        "boilerplatePythonFull": "###USER_CODE_HERE\ndef main():\n    \n    result_1 = binarysearch([1,2,3,4,5,6], 3)\n    print(result_1)\n    \n    result_2 = binarysearch([4,5,6,7,8], 8)\n    print(result_2)\n    \n    result_3 = binarysearch([0,1,6,8,9,10], 0)\n    print(result_3)\n  \nif __name__ == \"__main__\":\n    main()",
+        "test_cases": [
+          "[1,2,3,4,5,6] 3",
+          "[4,5,6,7,8] 8",
+          "[0,1,6,8,9,10] 0"
+        ],
+        "test_cases_ans": [
+          "2\r",
+          "4\r",
+          "0"
+        ],
+        "level": "medium",
+        "total_submissions": 0,
+        "pass_percent": "0"
+      },
+      {
+        "slug": "multiply",
+        "description": "  # **2sum**\r\n\r\n\r\n  ###  **Do multiplication of two numbers**\r\n\r\n**Test case 1**\r\n ```\r\n 2 3\r\n ```\r\n **Output**\r\n ```\r\n 6\r\n ```\r\n   **Test case 2**\r\n ```\r\n 100 0\r\n ```\r\n  **Output**\r\n ```\r\n0\r\n ```\r\n  **Test case 3**\r\n ```\r\n 2 -2\r\n ```\r\n **Output**\r\n ```\r\n -4\r\n ```\r\n ",
+        "boilerplateCppHalf": "\n//Add imports here\n    int mul (int num1, int num2) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavaHalf": "\n//Add imports here\n    public static int mul(int num1, int num2) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavascriptHalf": "\n//Add imports here\n    function mul (num1, num2) {\n    // Your code\n    return result;\n}",
+        "boilerplatePythonHalf": "def mul(num1, num2):\n        # Your code\n    return result",
+        "boilerplateCppFull": "\n\n        ###USER_CODE_HERE\n\n         int main() {\n              int num11 = 12;\n  int num21 = 100;\nint output1 = mul(num11,num21);\ncout << output1  << endl;\n  int num12 = 100;\n  int num22 = 56;\nint output2 = mul(num12,num22);\ncout << output2  << endl;\n        return 0;\n    }\n        \n       ",
+        "boilerplateJavaFull": "\n            public class Main {\n                public static void main(String[] args) {\n                    int num11 = 12;\nint num21 = 100;\nint output1 = mul(num11,num21);\nSystem.out.println(output1);\n int num12 = 100;\nint num22 = 56;\nint output2 = mul(num12,num22);\nSystem.out.println(output2);\n\n\n                }\n                ###USER_CODE_HERE\n            }\n        ",
+        "boilerplateJavascriptFull": "###USER_CODE_HERE\nfunction main() {\n    \n        const result1 = mul(12, 100);\n        console.log(result1);\n    \n        const result2 = mul(100, 56);\n        console.log(result2);\n}\n\nmain();",
+        "boilerplatePythonFull": "###USER_CODE_HERE\ndef main():\n    \n    result_1 = multiply(12, 100)\n    print(result_1)\n    \n    result_2 = multiply(100, 56)\n    print(result_2)\n  \nif __name__ == \"__main__\":\n    main()",
+        "test_cases": [
+          "12 100",
+          "100 56"
+        ],
+        "test_cases_ans": [
+          "1200\r",
+          "5600"
+        ],
+        "level": "easy",
+        "total_submissions": 0,
+        "pass_percent": "0"
+      },
+      {
+        "slug": "nqueens",
+        "description": "  # **N-Queens**\r\n\r\n\r\n  ###  **The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.**\r\n\r\n**Test case 1**\r\n ```\r\n 4\r\n ```\r\n **Output**\r\n ```\r\n [[\".Q..\",\"...Q\",\"Q...\",\"..Q.\"],[\"..Q.\",\"Q...\",\"...Q\",\".Q..\"]]\r\n ```\r\n   **Test case 2**\r\n ```\r\n1\r\n ```\r\n  **Output**\r\n ```\r\n  [[\"Q\"]]\r\n ```\r\n\r\n ",
+        "boilerplateCppHalf": "\n//Add imports here\n    vector<vector<string>> nqueens (int num) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavaHalf": "\n//Add imports here\n    public static List<List<String>> nqueens(int num) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavascriptHalf": "\n//Add imports here\n    function nqueens (num) {\n    // Your code\n    return result;\n}",
+        "boilerplatePythonHalf": "def nqueens(num):\n        # Your code\n    return result",
+        "boilerplateCppFull": "\n\n        ###USER_CODE_HERE\n\n         int main() {\n              int num1 = 4;\nvector<vector<string>> output1 = nqueens(num1);\ncout << \"[\";\n          for (int i = 0; i < output1.size(); i++) {\n              cout << \"[\";\n              for (int j = 0; j < output1[i].size(); j++) {\n                  cout << \"\\\"\" << output1[i][j] << \"\\\"\";\n                  if (j < output1[i].size() - 1) {\n                      cout << \",\";\n                  }\n              }\n              cout << \"]\";\n              if (i < output1.size() - 1) {\n                  cout << \",\";\n              }\n          }\n          cout << \"]\" << endl;\n  int num2 = 1;\nvector<vector<string>> output2 = nqueens(num2);\ncout << \"[\";\n          for (int i = 0; i < output2.size(); i++) {\n              cout << \"[\";\n              for (int j = 0; j < output2[i].size(); j++) {\n                  cout << \"\\\"\" << output2[i][j] << \"\\\"\";\n                  if (j < output2[i].size() - 1) {\n                      cout << \",\";\n                  }\n              }\n              cout << \"]\";\n              if (i < output2.size() - 1) {\n                  cout << \",\";\n              }\n          }\n          cout << \"]\" << endl;\n        return 0;\n    }\n        \n       ",
+        "boilerplateJavaFull": "\n            public class Main {\n                public static void main(String[] args) {\n                    int num1 = 4;\nList<List<String>> output1 = nqueens(num1);\n System.out.print(\"[\");\n          for (int i = 0; i < output1.size(); i++) {\n              System.out.print(\"[\");\n              for (int j = 0; j < output1.get(i).size(); j++) {\n                  System.out.print(\"\\\"\" + output1.get(i).get(j) + \"\\\"\");\n                  if (j < output1.get(i).size() - 1) {\n                      System.out.print(\",\");\n                  }\n              }\n              System.out.print(\"]\");\n              if (i < output1.size() - 1) {\n                  System.out.print(\",\");\n              }\n          }\n          System.out.println(\"]\");\n int num2 = 1;\nList<List<String>> output2 = nqueens(num2);\n System.out.print(\"[\");\n          for (int i = 0; i < output2.size(); i++) {\n              System.out.print(\"[\");\n              for (int j = 0; j < output2.get(i).size(); j++) {\n                  System.out.print(\"\\\"\" + output2.get(i).get(j) + \"\\\"\");\n                  if (j < output2.get(i).size() - 1) {\n                      System.out.print(\",\");\n                  }\n              }\n              System.out.print(\"]\");\n              if (i < output2.size() - 1) {\n                  System.out.print(\",\");\n              }\n          }\n          System.out.println(\"]\");\n\n\n                }\n                ###USER_CODE_HERE\n            }\n        ",
+        "boilerplateJavascriptFull": "###USER_CODE_HERE\nfunction main() {\n    \n        const result1 = nqueens(4);\n        console.log(result1);\n    \n        const result2 = nqueens(1);\n        console.log(result2);\n}\n\nmain();",
+        "boilerplatePythonFull": "###USER_CODE_HERE\ndef main():\n    \n    result_1 = nqueens(4)\n    print(result_1)\n    \n    result_2 = nqueens(1)\n    print(result_2)\n  \nif __name__ == \"__main__\":\n    main()",
+        "test_cases": [
+          "4",
+          "1"
+        ],
+        "test_cases_ans": [
+          "[['.Q..','...Q','Q...','..Q.'],['..Q.','Q...','...Q','.Q..']]\r",
+          "[['Q']]"
+        ],
+        "level": "hard",
+        "total_submissions": 0,
+        "pass_percent": "0"
+      },
+      {
+        "slug": "sudokusolver",
+        "description": "  # **Sudoku Solver**\r\n\r\n\r\n\r\n### **Write a program to solve a Sudoku puzzle by filling the empty cells.**\r\n\r\nA sudoku solution must satisfy all of the following rules:\r\n\r\n- Each of the digits 1-9 must occur exactly once in each row.\r\n- Each of the digits 1-9 must occur exactly once in each column.\r\n- Each of the digits 1-9 must occur exactly once in each of the 9 3x3 sub-boxes of the grid.\r\n- The '.' character indicates empty cells.\r\n\r\n\r\n**Test case 1**\r\n ```\r\n  board = [[\"5\",\"3\",\".\",\".\",\"7\",\".\",\".\",\".\",\".\"],\r\n  [\"6\",\".\",\".\",\"1\",\"9\",\"5\",\".\",\".\",\".\"],\r\n  [\".\",\"9\",\"8\",\".\",\".\",\".\",\".\",\"6\",\".\"],\r\n  [\"8\",\".\",\".\",\".\",\"6\",\".\",\".\",\".\",\"3\"],\r\n  [\"4\",\".\",\".\",\"8\",\".\",\"3\",\".\",\".\",\"1\"],\r\n  [\"7\",\".\",\".\",\".\",\"2\",\".\",\".\",\".\",\"6\"],\r\n  [\".\",\"6\",\".\",\".\",\".\",\".\",\"2\",\"8\",\".\"],\r\n  [\".\",\".\",\".\",\"4\",\"1\",\"9\",\".\",\".\",\"5\"],\r\n  [\".\",\".\",\".\",\".\",\"8\",\".\",\".\",\"7\",\"9\"]]\r\n ```\r\n **Output**\r\n ```\r\n[[\"5\",\"3\",\"4\",\"6\",\"7\",\"8\",\"9\",\"1\",\"2\"],\r\n[\"6\",\"7\",\"2\",\"1\",\"9\",\"5\",\"3\",\"4\",\"8\"],\r\n[\"1\",\"9\",\"8\",\"3\",\"4\",\"2\",\"5\",\"6\",\"7\"],\r\n[\"8\",\"5\",\"9\",\"7\",\"6\",\"1\",\"4\",\"2\",\"3\"],\r\n[\"4\",\"2\",\"6\",\"8\",\"5\",\"3\",\"7\",\"9\",\"1\"],\r\n[\"7\",\"1\",\"3\",\"9\",\"2\",\"4\",\"8\",\"5\",\"6\"],\r\n[\"9\",\"6\",\"1\",\"5\",\"3\",\"7\",\"2\",\"8\",\"4\"],\r\n[\"2\",\"8\",\"7\",\"4\",\"1\",\"9\",\"6\",\"3\",\"5\"],\r\n[\"3\",\"4\",\"5\",\"2\",\"8\",\"6\",\"1\",\"7\",\"9\"]]\r\n ```\r\n\r\n ",
+        "boilerplateCppHalf": "\n//Add imports here\n    vector<vector<char>> solveSudoku (vector<vector<char>> board) {\n    // Your code\n    return solvedBoard;\n}",
+        "boilerplateJavaHalf": "\n//Add imports here\n    public static char[][] solveSudoku(char[][] board) {\n    // Your code\n    return solvedBoard;\n}",
+        "boilerplateJavascriptHalf": "\n//Add imports here\n    function solveSudoku (board) {\n    // Your code\n    return solvedBoard;\n}",
+        "boilerplatePythonHalf": "def solveSudoku(board):\n        # Your code\n    return solvedBoard",
+        "boilerplateCppFull": "\n\n        ###USER_CODE_HERE\n\n         int main() {\n              vector<vector<char>> board1 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','.','.','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};\nvector<vector<char>> output1 = solveSudoku(board1);\ncout << \"[\";\n          for (int i = 0; i < output1.size(); i++) {\n              cout << \"[\";\n              for (int j = 0; j < output1[i].size(); j++) {\n                  cout << \"'\" << output1[i][j] << \"'\";\n                  if (j < output1[i].size() - 1) {\n                      cout << \",\";\n                  }\n              }\n              cout << \"]\";\n              if (i < output1.size() - 1) {\n                  cout << \",\";\n              }\n          }\n          cout << \"]\"<< endl;\n  vector<vector<char>> board2 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','.','.','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};\nvector<vector<char>> output2 = solveSudoku(board2);\ncout << \"[\";\n          for (int i = 0; i < output2.size(); i++) {\n              cout << \"[\";\n              for (int j = 0; j < output2[i].size(); j++) {\n                  cout << \"'\" << output2[i][j] << \"'\";\n                  if (j < output2[i].size() - 1) {\n                      cout << \",\";\n                  }\n              }\n              cout << \"]\";\n              if (i < output2.size() - 1) {\n                  cout << \",\";\n              }\n          }\n          cout << \"]\"<< endl;\n        return 0;\n    }\n        \n       ",
+        "boilerplateJavaFull": "\n            public class Main {\n                public static void main(String[] args) {\n                    char[][] board1 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','.','.','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};\nchar[][] output1 = solveSudoku(board1);\n System.out.print(\"[\");\n          for (int i = 0; i < output1.length; i++) {\n              System.out.print(\"[\");\n              for (int j = 0; j < output1[i].length; j++) {\n                  System.out.print(\"'\" + output1[i][j] + \"'\");\n                  if (j < output1[i].length - 1) {\n                      System.out.print(\",\");\n                  }\n              }\n              System.out.print(\"]\");\n              if (i < output1.length - 1) {\n                  System.out.print(\",\");\n              }\n          }\n          System.out.println(\"]\");\n char[][] board2 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','.','.','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};\nchar[][] output2 = solveSudoku(board2);\n System.out.print(\"[\");\n          for (int i = 0; i < output2.length; i++) {\n              System.out.print(\"[\");\n              for (int j = 0; j < output2[i].length; j++) {\n                  System.out.print(\"'\" + output2[i][j] + \"'\");\n                  if (j < output2[i].length - 1) {\n                      System.out.print(\",\");\n                  }\n              }\n              System.out.print(\"]\");\n              if (i < output2.length - 1) {\n                  System.out.print(\",\");\n              }\n          }\n          System.out.println(\"]\");\n\n\n                }\n                ###USER_CODE_HERE\n            }\n        ",
+        "boilerplateJavascriptFull": "###USER_CODE_HERE\nfunction main() {\n    \n        const result1 = solveSudoku([['5','3','.','.','7','.','.','.','.'],['6','.','.','1','9','5','.','.','.'],['.','9','8','.','.','.','.','6','.'],['8','.','.','.','6','.','.','.','3'],['4','.','.','8','.','3','.','.','1'],['7','.','.','.','2','.','.','.','6'],['.','6','.','.','.','.','2','8','.'],['.','.','.','4','.','.','.','.','5'],['.','.','.','.','8','.','.','7','9']]);\n        console.log(result1);\n    \n        const result2 = solveSudoku([['5','3','.','.','7','.','.','.','.'],['6','.','.','1','9','5','.','.','.'],['.','9','8','.','.','.','.','6','.'],['8','.','.','.','6','.','.','.','3'],['4','.','.','8','.','3','.','.','1'],['7','.','.','.','2','.','.','.','6'],['.','6','.','.','.','.','2','8','.'],['.','.','.','4','.','.','.','.','5'],['.','.','.','.','8','.','.','7','9']]);\n        console.log(result2);\n}\n\nmain();",
+        "boilerplatePythonFull": "###USER_CODE_HERE\ndef main():\n    \n    result_1 = sudokusolver([['5','3','.','.','7','.','.','.','.'],['6','.','.','1','9','5','.','.','.'],['.','9','8','.','.','.','.','6','.'],['8','.','.','.','6','.','.','.','3'],['4','.','.','8','.','3','.','.','1'],['7','.','.','.','2','.','.','.','6'],['.','6','.','.','.','.','2','8','.'],['.','.','.','4','.','.','.','.','5'],['.','.','.','.','8','.','.','7','9']])\n    print(result_1)\n    \n    result_2 = sudokusolver([['5','3','.','.','7','.','.','.','.'],['6','.','.','1','9','5','.','.','.'],['.','9','8','.','.','.','.','6','.'],['8','.','.','.','6','.','.','.','3'],['4','.','.','8','.','3','.','.','1'],['7','.','.','.','2','.','.','.','6'],['.','6','.','.','.','.','2','8','.'],['.','.','.','4','.','.','.','.','5'],['.','.','.','.','8','.','.','7','9']])\n    print(result_2)\n  \nif __name__ == \"__main__\":\n    main()",
+        "test_cases": [
+          "[['5','3','.','.','7','.','.','.','.'],['6','.','.','1','9','5','.','.','.'],['.','9','8','.','.','.','.','6','.'],['8','.','.','.','6','.','.','.','3'],['4','.','.','8','.','3','.','.','1'],['7','.','.','.','2','.','.','.','6'],['.','6','.','.','.','.','2','8','.'],['.','.','.','4','.','.','.','.','5'],['.','.','.','.','8','.','.','7','9']]",
+          "[['5','3','.','.','7','.','.','.','.'],['6','.','.','1','9','5','.','.','.'],['.','9','8','.','.','.','.','6','.'],['8','.','.','.','6','.','.','.','3'],['4','.','.','8','.','3','.','.','1'],['7','.','.','.','2','.','.','.','6'],['.','6','.','.','.','.','2','8','.'],['.','.','.','4','.','.','.','.','5'],['.','.','.','.','8','.','.','7','9']]"
+        ],
+        "test_cases_ans": [
+          "[['5','3','4','6','7','8','9','1','2'],['6','7','2','1','9','5','3','4','8'],['1','9','8','3','4','2','5','6','7'],['8','5','9','7','6','1','4','2','3'],['4','2','6','8','5','3','7','9','1'],['7','1','3','9','2','4','8','5','6'],['9','6','1','5','3','7','2','8','4'],['2','8','7','4','1','9','6','3','5'],['3','4','5','2','8','6','1','7','9']]"
+        ],
+        "level": "hard",
+        "total_submissions": 0,
+        "pass_percent": "0"
+      },
+      {
+        "slug": "itenary",
+        "description": "  # **Reconstruct Itinerary**\r\n\r\n\r\n  ###  **\r\n  You are given a list of airline tickets where tickets[i] = [fromi, toi] represent the departure and the arrival airports of one flight.\r\n   Reconstruct the itinerary in order and return it.All of the tickets belong to a man who departs from \"JFK\", thus, the itinerary must begin with \"JFK\". \r\n  If there are multiple valid itineraries, you should return the itinerary that has the smallest lexical order when read as a single string.For example, the itinerary [\"JFK\", \"LGA\"] has a smaller lexical order than [\"JFK\", \"LGB\"].\r\nYou may assume all tickets form at least one valid itinerary. You must use all the tickets once and only once.\r\n**\r\n\r\n**Test case 1**\r\n ```\r\n  tickets = [[\"MUC\",\"LHR\"],[\"JFK\",\"MUC\"],[\"SFO\",\"SJC\"],[\"LHR\",\"SFO\"]]\r\n ```\r\n **Output**\r\n ```\r\n[\"JFK\",\"MUC\",\"LHR\",\"SFO\",\"SJC\"]\r\n ```\r\n   **Test case 2**\r\n ```\r\n tickets = [[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"SFO\",\"ATL\"],[\"ATL\",\"JFK\"],[\"ATL\",\"SFO\"]]\r\n ```\r\n  **Output**\r\n ```\r\n  [\"JFK\",\"ATL\",\"JFK\",\"SFO\",\"ATL\",\"SFO\"]\r\n ```\r\n  **Test case 2**\r\n ```\r\n 2 -2\r\n ```\r\n **Output**\r\n ```\r\n 0\r\n ```\r\n ",
+        "boilerplateCppHalf": "\n//Add imports here\n    vector<string> findItinerary (vector<vector<string>> tickets) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavaHalf": "\n//Add imports here\n    public static List<String> findItinerary(List<List<String>> tickets) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavascriptHalf": "\n//Add imports here\n    function findItinerary (tickets) {\n    // Your code\n    return result;\n}",
+        "boilerplatePythonHalf": "def findItinerary(tickets):\n        # Your code\n    return result",
+        "boilerplateCppFull": "\n\n        ###USER_CODE_HERE\n\n         int main() {\n              vector<vector<string>> tickets1 = {{\"MUC\", \"LHR\"}, {\"JFK\", \"MUC\"}, {\"SFO\", \"SJC\"}, {\"LHR\", \"SFO\"}};\nvector<string> output1 = findItinerary(tickets1);\ncout << \"[\";\n          for (int i = 0; i < output1.size(); i++) {\n              cout << '\\\"' << output1[i] << '\\\"';\n              if (i < output1.size() - 1) {\n                  cout << \",\";\n              }\n          }\n          cout << \"]\" << endl;\n  vector<vector<string>> tickets2 = {{\"JFK\", \"SFO\"}, {\"JFK\", \"ATL\"}, {\"SFO\", \"ATL\"}, {\"ATL\", \"JFK\"}, {\"ATL\", \"SFO\"}};\nvector<string> output2 = findItinerary(tickets2);\ncout << \"[\";\n          for (int i = 0; i < output2.size(); i++) {\n              cout << '\\\"' << output2[i] << '\\\"';\n              if (i < output2.size() - 1) {\n                  cout << \",\";\n              }\n          }\n          cout << \"]\" << endl;\n        return 0;\n    }\n        \n       ",
+        "boilerplateJavaFull": "\n            public class Main {\n                public static void main(String[] args) {\n                    List<List<String>> tickets1 = Arrays.asList(\n          Arrays.asList(\"MUC\", \"LHR\"),\n  Arrays.asList(\"JFK\", \"MUC\"),\n  Arrays.asList(\"SFO\", \"SJC\"),\n  Arrays.asList(\"LHR\", \"SFO\")\n        );\nList<String> output1 = findItinerary(tickets1);\n\n         System.out.print(\"[\");\n          for (int i = 0; i < output1.size(); i++) {\n               System.out.print(\"\\\"\" + output1.get(i) + \"\\\"\");\n              if (i < output1.size() - 1) {\n                  System.out.print(\", \");\n              }\n          }\n          System.out.println(\"]\");\n List<List<String>> tickets2 = Arrays.asList(\n          Arrays.asList(\"JFK\", \"SFO\"),\n  Arrays.asList(\"JFK\", \"ATL\"),\n  Arrays.asList(\"SFO\", \"ATL\"),\n  Arrays.asList(\"ATL\", \"JFK\"),\n  Arrays.asList(\"ATL\", \"SFO\")\n        );\nList<String> output2 = findItinerary(tickets2);\n\n         System.out.print(\"[\");\n          for (int i = 0; i < output2.size(); i++) {\n               System.out.print(\"\\\"\" + output2.get(i) + \"\\\"\");\n              if (i < output2.size() - 1) {\n                  System.out.print(\", \");\n              }\n          }\n          System.out.println(\"]\");\n\n\n                }\n                ###USER_CODE_HERE\n            }\n        ",
+        "boilerplateJavascriptFull": "###USER_CODE_HERE\nfunction main() {\n    \n        const result1 = findItinerary([[\"MUC\",\"LHR\"],[\"JFK\",\"MUC\"],[\"SFO\",\"SJC\"],[\"LHR\",\"SFO\"]]);\n        console.log(result1);\n    \n        const result2 = findItinerary([[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"SFO\",\"ATL\"],[\"ATL\",\"JFK\"],[\"ATL\",\"SFO\"]]);\n        console.log(result2);\n}\n\nmain();",
+        "boilerplatePythonFull": "###USER_CODE_HERE\ndef main():\n    \n    result_1 = itenary([[\"MUC\",\"LHR\"],[\"JFK\",\"MUC\"],[\"SFO\",\"SJC\"],[\"LHR\",\"SFO\"]])\n    print(result_1)\n    \n    result_2 = itenary([[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"SFO\",\"ATL\"],[\"ATL\",\"JFK\"],[\"ATL\",\"SFO\"]])\n    print(result_2)\n  \nif __name__ == \"__main__\":\n    main()",
+        "test_cases": [
+          "[[\"MUC\",\"LHR\"],[\"JFK\",\"MUC\"],[\"SFO\",\"SJC\"],[\"LHR\",\"SFO\"]]",
+          "[[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"SFO\",\"ATL\"],[\"ATL\",\"JFK\"],[\"ATL\",\"SFO\"]]"
+        ],
+        "test_cases_ans": [
+          "[\"JFK\",\"MUC\",\"LHR\",\"SFO\",\"SJC\"]\r",
+          "[\"JFK\",\"ATL\",\"JFK\",\"SFO\",\"ATL\",\"SFO\"]"
+        ],
+        "level": "hard",
+        "total_submissions": 0,
+        "pass_percent": "0"
+      },
+      {
+        "slug": "divide",
+        "description": "  # **Divide 2**\r\n\r\n\r\n  ###  **Find division of two numbers**\r\n\r\n**Test case 2**\r\n ```\r\n 2 3\r\n ```\r\n **Output**\r\n ```\r\n 0\r\n ```\r\n   **Test case 2**\r\n ```\r\n 100 0\r\n ```\r\n  **Output**\r\n ```\r\n-1\r\n ```\r\n  **Test case 2**\r\n ```\r\n 2 -2\r\n ```\r\n **Output**\r\n ```\r\n -1\r\n ```\r\n ",
+        "boilerplateCppHalf": "\n//Add imports here\n    int divide (int num1, int num2) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavaHalf": "\n//Add imports here\n    public static int divide(int num1, int num2) {\n    // Your code\n    return result;\n}",
+        "boilerplateJavascriptHalf": "\n//Add imports here\n    function divide (num1, num2) {\n    // Your code\n    return result;\n}",
+        "boilerplatePythonHalf": "def divide(num1, num2):\n        # Your code\n    return result",
+        "boilerplateCppFull": "\n\n        ###USER_CODE_HERE\n\n         int main() {\n              int num11 = 2;\n  int num21 = 2;\nint output1 = divide(num11,num21);\ncout << output1  << endl;\n  int num12 = 2;\n  int num22 = -1;\nint output2 = divide(num12,num22);\ncout << output2  << endl;\n  int num13 = 3;\n  int num23 = 2;\nint output3 = divide(num13,num23);\ncout << output3  << endl;\n  int num14 = 2;\n  int num24 = 0;\nint output4 = divide(num14,num24);\ncout << output4  << endl;\n  int num15 = 100;\n  int num25 = 1;\nint output5 = divide(num15,num25);\ncout << output5  << endl;\n        return 0;\n    }\n        \n       ",
+        "boilerplateJavaFull": "\n            public class Main {\n                public static void main(String[] args) {\n                    int num11 = 2;\nint num21 = 2;\nint output1 = divide(num11,num21);\nSystem.out.println(output1);\n int num12 = 2;\nint num22 = -1;\nint output2 = divide(num12,num22);\nSystem.out.println(output2);\n int num13 = 3;\nint num23 = 2;\nint output3 = divide(num13,num23);\nSystem.out.println(output3);\n int num14 = 2;\nint num24 = 0;\nint output4 = divide(num14,num24);\nSystem.out.println(output4);\n int num15 = 100;\nint num25 = 1;\nint output5 = divide(num15,num25);\nSystem.out.println(output5);\n\n\n                }\n                ###USER_CODE_HERE\n            }\n        ",
+        "boilerplateJavascriptFull": "###USER_CODE_HERE\nfunction main() {\n    \n        const result1 = divide(2, 2);\n        console.log(result1);\n    \n        const result2 = divide(2, -1);\n        console.log(result2);\n    \n        const result3 = divide(3, 2);\n        console.log(result3);\n    \n        const result4 = divide(2, 0);\n        console.log(result4);\n    \n        const result5 = divide(100, 1);\n        console.log(result5);\n}\n\nmain();",
+        "boilerplatePythonFull": "###USER_CODE_HERE\ndef main():\n    \n    result_1 = divide(2, 2)\n    print(result_1)\n    \n    result_2 = divide(2, -1)\n    print(result_2)\n    \n    result_3 = divide(3, 2)\n    print(result_3)\n    \n    result_4 = divide(2, 0)\n    print(result_4)\n    \n    result_5 = divide(100, 1)\n    print(result_5)\n  \nif __name__ == \"__main__\":\n    main()",
+        "test_cases": [
+          "2 2",
+          "2 -1",
+          "3 2",
+          "2 0",
+          "100 1"
+        ],
+        "test_cases_ans": [
+          "1\r",
+          "-2\r",
+          "1\r",
+          "-1\r",
+          "100"
+        ],
+        "level": "easy",
+        "total_submissions": 0,
+        "pass_percent": "0"
+      }
+    ]
+  }

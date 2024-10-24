@@ -1,0 +1,72 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserType {
+  ADMIN
+  USER
+}
+
+model Problems{
+  slug String @id
+  description String
+  boilerplateCppHalf String
+  boilerplateJavaHalf String
+  boilerplateJavascriptHalf String
+  boilerplatePythonHalf String
+  boilerplateCppFull String
+  boilerplateJavaFull String
+  boilerplateJavascriptFull String
+  boilerplatePythonFull String
+  test_cases Json
+  test_cases_ans Json
+  level String
+  total_submissions Int @default(0)
+  pass_percent Decimal @default(0)
+}
+
+model User {
+  id       String   @id @default(uuid())
+  name     String   @unique
+  email    String   @unique
+  image    String  
+  type     UserType @default(USER)
+  submission SubmissionsProblem[]
+}
+
+
+model SubmissionsProblem {
+  userId   String   
+  slug           String   @id
+  status         String[]
+  time           DateTime[]    
+  submission     User    @relation(fields: [userId], references: [id])
+}
+
+enum SubmissionStatus {
+  Accepted
+  WrongAnswer @map(name: "Wrong Answer")
+  CompileError @map(name: "Compile Error")
+}
+
+// model Submission {
+//   userId         String       @id
+//   problem        SubmissionsProblem[]
+
+//   user User   @relation(fields: [userId], references: [id])
+// }
+
+
+model Contest{
+  name String @id
+  problemsId String[]
+  score String[]
+  startTime DateTime
+}
+
