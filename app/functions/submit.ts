@@ -2,6 +2,7 @@ import axios from "axios";
 import { getSession } from "next-auth/react";
 import BACKEND_URL from "./backendurl";
 import  ip,{ address } from "ip";
+import ipDeployAddress from "@/ipManager";
 export interface submitReq {
     selectedLanguage:string,
     code:string,
@@ -19,9 +20,11 @@ async function Submit({code,selectedLanguage}) {
         }
         //@ts-ignore
         userId =  session?.user.id; 
-        const ipAddress = `http://${address()}:4000`;
+        // const ipAddress = `http://${address()}:4000`;
+        const ipAddress = `http://${ipDeployAddress}:4000`;
         
-        const resp = await axios.post(`${ipAddress}/submit-code`,{code,selectedLanguage:language,userId});
+        const resp = await axios.post(`${ipAddress}/submit-code`,{
+        code,selectedLanguage:language,userId});
         console.log("resp",resp.data)
         if(resp.data.stderr!==""){
             return {

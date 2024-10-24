@@ -1,11 +1,11 @@
 
+import ipDeployAddress from "@/ipManager";
 import axios from "axios";
-import { address } from "ip";
 
 async function all_leader_board_user(userid:string){
 try {
     console.log("all_leader_board_user")
-      const ipAddress = `http://${address()}:4000`;
+      const ipAddress = `http://${ipDeployAddress}:4000`;
       const resp = await axios.post(`${ipAddress}/contest/all-contests/${userid}`);
       const data = resp.data;
       console.log("/contest/${userid}/data",data);

@@ -16,8 +16,7 @@ const Login = () => {
     // return alert("error");
     try {
       const result = await signIn(provider,{callbackUrl:"/"});
-      // await new Promise.resolve(()=>setTimeout(()=>),{1000})
-      console.log("Login result:", result?.url); // Log for debugging
+      console.log("Login result:", result?.url);
 
       if(result){
         if (result?.error || !result.ok) {
@@ -52,7 +51,7 @@ const Login = () => {
         )}
         <h1 className="text-3xl font-bold text-gray-900 mb-6 text-center">Login</h1>
         <div className="space-y-4">
-          <button
+          {/* <button
             onClick={() =>{
                 handleLogin('google');
             }}
@@ -60,7 +59,7 @@ const Login = () => {
           >
             <Image src={google} alt="Google" height={24} width={24} className="mr-3" />
             Sign in with Google
-          </button>
+          </button> */}
           <button
             onClick={() =>{
                handleLogin('github')
